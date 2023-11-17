@@ -8,5 +8,5 @@ WORKDIR /c/Users/shaik/moin/accenture-
 COPY java.js .
 
 # Specify the command to run on container startup
-CMD ["java", "-jar", "java.js"]
+CMD ["java.js"]
 
