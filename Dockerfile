@@ -2,7 +2,7 @@
 FROM openjdk:11-jre-slim
 
 # Set the working directory in the container
-WORKDIR /c/Users/shaik/moin/accenture-
+WORKDIR /Users/shaik/moin/accenture-
 
 # Copy the application JAR file into the container
 COPY java.js .
